@@ -1,0 +1,81 @@
+/* Pengaturan Umum Halaman */body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Latar belakang malam bernuansa gelap keunguan */
+  background: linear-gradient(135deg, #0f0c1b 0%, #1a1025 100%);
+  margin: 0;
+  padding: 40px 20px;
+  color: #e0d8f0; /* Teks putih keunguan lembut agar nyaman dibaca */
+}
+
+.card {
+  max-width: 450px;
+  /* Card dengan latar belakang gelap pekat dan efek glow tipis */
+  background-color: #191226;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(255, 41, 133, 0.15); /* Bayangan bernuansa pink */
+  border: 1px solid rgba(255, 105, 180, 0.2); /* Garis tepi tipis warna pink */
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  /* Efek border bercahaya khas Ai */
+  border: 3px solid #ff2a85;
+  box-shadow: 0 0 15px rgba(255, 42, 133, 0.6);
+}
+
+h1 {
+  /* Nama dengan warna pink terang magenta */
+  color: #ff479d;
+  margin-bottom: 5px;
+  text-shadow: 0 0 10px rgba(255, 71, 157, 0.4);
+}
+
+.bio {
+  color: #b5a9cc; /* Abu-abu keunguan lembut */
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.section {
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #2d2042; /* Pemisah gelap */
+}
+
+h2 {
+  /* Sub-heading warna ungu/magenta elegan */
+  color: #ff85c2;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 20px;
+  color: #d1c7e2;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  /* Tombol gradasi pink magenta khas idol */
+  background: linear-gradient(135deg, #ff2a85 0%, #b721ff 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 42, 133, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #e01e73 0%, #9e15df 100%);
+  box-shadow: 0 6px 20px rgba(255, 42, 133, 0.6);
+  transform: translateY(-2px);
+}
